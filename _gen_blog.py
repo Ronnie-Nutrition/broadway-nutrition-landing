@@ -14,7 +14,7 @@ sitemap.xml by globbing blog/ , so the blog URLs are picked up automatically.
 import json, os, re
 
 DOMAIN="broadwaynutrition.com"
-PIXEL="26494205896906932"
+PIXEL="1026541466453867"
 PHONE_DISP="832-827-7133"; PHONE_TEL="+18328277133"
 ADDR="3272 E Broadway St, Ste 145"
 IG="https://instagram.com/broadwaynutrition.tx"
