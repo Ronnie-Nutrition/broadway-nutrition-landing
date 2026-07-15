@@ -88,3 +88,5 @@ Generator: `_gen_blog.py` (edit script, re-run — never hand-edit HTML). Writes
 - [ ] **GSC — blog** — sitemap.xml now includes the 8 posts + `/blog/`; Google will discover them on next sitemap fetch. Optional: request indexing per post in GSC to speed it up.
 - [ ] **GBP NAP check** — confirm Google Business Profile says exactly `3272 E Broadway St, Ste 145` (matches site).
 - [ ] **Ads** — share pixel `26494205896906932` to an active ad account (lowercase business's own account is disabled).
+
+**DEFINITIVE (Ronnie, 7/15/2026): the B12 is a $3 standalone shot, same as NH — the earlier "$2.14 enhancer only" note is superseded. b12-shots-pearland page LIVE 7/15.**

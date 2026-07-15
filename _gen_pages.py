@@ -229,7 +229,7 @@ PAGES.append(dict(
  intro_h2='Post-workout protein shakes in <span>Pearland</span>',
  intro="""<p>Just finished training? Grab a <strong>protein shake in Pearland</strong> at Broadway Nutrition on E Broadway. Every shake is made fresh with <strong>24–30g of protein</strong> to help you refuel and recover — thick, creamy, and tasting like dessert.</p>
     <p>Our 20oz protein shakes run about 190 calories with 24g protein, and the gourmet shakes go up to 30g. Add a collagen or B6/B12 energy boost if you want extra. It's the post-gym treat you'll actually look forward to.</p>
-    <p>Chasing a goal instead? See our <a href="/weight-loss-smoothies-pearland/">meal-replacement smoothies</a>, grab a <a href="/lit-teas-pearland/">lit tea</a>, or view the <a href="/">full Broadway menu</a>.</p>""",
+    <p>Chasing a goal instead? See our <a href="/weight-loss-smoothies-pearland/">meal-replacement smoothies</a>, grab a <a href="/lit-teas-pearland/">lit tea</a>, add a <a href="/b12-shots-pearland/">$3 B12 energy shot</a>, or view the <a href="/">full Broadway menu</a>.</p>""",
  grid_h2='Fan-favorite <span>protein shakes</span>',
  grid_lead="A taste of the board — all made fresh with 24g+ protein.",
  grid=ps_grid,
@@ -240,6 +240,58 @@ PAGES.append(dict(
  faqs=ps_faq, cta_label="🥤 Text to Order",
  close_h2='Refuel <span>the right way.</span>',
  close_p="Text or call your order ahead and skip the wait — or walk in straight from the gym.",
+))
+
+# ================= PAGE 5: B12 ENERGY SHOTS =================
+# Confirmed by Ronnie 7/15/2026: Broadway's B12 is a $3 standalone shot, same as
+# NH's. Copy rule (from NH): it's a refreshing B-vitamin energy DRINK — describe
+# it positively, never use "no needles / no clinic / no injection" framing, and
+# don't brand it "Liftoff" on-site.
+b12_grid = "\n".join([
+ card(None,"B12 ENERGY","B12 Energy Shot","B1, B6 &amp; B12 — a quick, refreshing energy lift","$3.00"),
+ card(f"{GH}/tea_dragon_juice.png","PAIRS WITH","Any Lit Tea","Add a B12 shot to your 32oz tea for extra lift","$9.15"),
+ card(f"{GH}/shake_banana_pudding.png","PAIRS WITH","Any Smoothie","Round out your protein smoothie with a B12 boost","$9.97"),
+])
+b12_faq=[
+ ("What is a B12 energy shot?",
+  "Our B12 energy shot is a small, refreshing B-vitamin drink — B1, B6, and B12 — that gives you a quick, clean energy lift. At Broadway Nutrition in Pearland it's just $3, on its own or alongside any tea or smoothie.",
+  "Our B12 energy shot is a small, refreshing B-vitamin drink — B1, B6, and B12 — that gives you a quick, clean energy lift. At Broadway Nutrition in Pearland it's just $3, on its own or alongside any tea or smoothie."),
+ ("How much does a B12 energy shot cost in Pearland?",
+  "Just $3 at Broadway Nutrition — one of the easiest energy upgrades on the menu. Text or call 832-827-7133 to order ahead, or walk in at 3272 E Broadway St, Ste 145.",
+  "Just $3 at Broadway Nutrition — one of the easiest energy upgrades on the menu. Text or call 832-827-7133 to order ahead, or walk in at 3272 E Broadway St, Ste 145."),
+ ("When should I grab a B12 energy shot?",
+  "Our regulars grab one on slow mornings, before workouts, or as a 2 PM pick-me-up instead of another coffee. It pairs perfectly with a lit tea or smoothie.",
+  "Our regulars grab one on slow mornings, before workouts, or as a 2 PM pick-me-up instead of another coffee. It pairs perfectly with a lit tea or smoothie."),
+ ("Can I add B12 to my tea or smoothie instead?",
+  "Yes — ask for a B6/B12 energy add-in when you order any drink and we'll blend it right in.",
+  "Yes — ask for a B6/B12 energy add-in when you order any drink and we'll blend it right in."),
+ ("Where can I get a B12 energy shot near me in Pearland, TX?",
+  "Broadway Nutrition is at 3272 E Broadway St, Ste 145, Pearland, TX 77581, open Mon–Fri 7 AM–1 PM. Text or call 832-827-7133 to order ahead.",
+  "Broadway Nutrition is at 3272 E Broadway St, Ste 145, Pearland, TX 77581, open Mon–Fri 7 AM–1 PM. Text or call 832-827-7133 to order ahead."),
+]
+PAGES.append(dict(
+ slug="b12-shots-pearland", acc="#ffcf3f", acc2="#ff7a18", accglow="rgba(255,207,63,.5)",
+ title="B12 Energy Shots in Pearland, TX | Broadway Nutrition",
+ desc="B12 energy shots in Pearland, TX — a refreshing $3 B-vitamin drink (B1, B6 & B12) for a quick, clean lift. Solo or with any tea or smoothie. 3272 E Broadway St, Ste 145.",
+ ogimg=f"{GH}/tea_dragon_juice.png",
+ schema_desc="B12 energy shots in Pearland, TX — a refreshing $3 B-vitamin energy drink, solo or added to any tea or smoothie.",
+ serves=["B12 Energy Shots","Energy Teas","Smoothies"],
+ h1='<span class="a">B12 Energy Shots</span><br>in <span class="b">Pearland, TX</span>',
+ hero_sub="A refreshing $3 B-vitamin drink — B1, B6 & B12 for a quick, clean energy lift. Grab one solo or with any tea or smoothie.",
+ intro_h2='The $3 <span>energy upgrade</span>',
+ intro="""<p>Need a quick lift without committing to a full drink? Grab a <strong>B12 energy shot in Pearland</strong> at Broadway Nutrition — a small, refreshing B-vitamin drink with <strong>B1, B6 and B12</strong> for clean energy, just <strong>$3</strong>.</p>
+    <p>It's the easiest add-on on the board: take it solo as a morning kick-start, or pair it with your usual order for extra lift. Prefer it blended in? Ask for a B6/B12 energy add-in with any drink.</p>
+    <p>Make it a combo: a <a href="/lit-teas-pearland/">32oz lit tea</a>, a <a href="/weight-loss-smoothies-pearland/">meal-replacement smoothie</a>, or a <a href="/protein-coffee-pearland/">protein coffee</a> — or see the <a href="/">full Broadway menu</a>.</p>""",
+ grid_h2='Ways to <span>get your B12</span>',
+ grid_lead="Solo, paired, or blended in — all made fresh at the counter.",
+ grid=b12_grid,
+ why_h2='Why the <span>B12 shot</span> is a fan favorite',
+ why=[("⚡","Quick <span>clean lift</span>","B1, B6 and B12 in one refreshing little drink — smooth energy without another heavy coffee."),
+      ("💵","Just <span>$3</span>","The cheapest energy upgrade on the menu — an easy daily habit."),
+      ("🥤","Pairs with <span>everything</span>","Take it alongside your tea or smoothie, or ask us to blend a B-vitamin boost right in.")],
+ faqs=b12_faq, cta_label="⚡ Text to Order",
+ close_h2='Your <span>$3 lift</span> is waiting.',
+ close_p="Text or call your order ahead — or walk in and add a B12 shot at the counter.",
 ))
 
 # ---------------- TEMPLATE ----------------
